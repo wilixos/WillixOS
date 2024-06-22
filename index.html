@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iBugatti Mobile Stores Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/70b75ec121.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="ibugattilogo.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>CEO iBugatti Mobile Stores</p>
+          <h1>
+            Hi, I'm <span>Alao Damilare,</span><br />CEO iBugatti Mobile Stores.
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="ibugatti2.JPG" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              As a visionary leader and CEO of [iBugatti Mobile Stores], I have
+              successfully merged my passion for innovation and technology to
+              drive growth, excellence, and customer satisfaction. With a unique
+              blend of business acumen, technical expertise, and creative
+              vision, I have established myself as a respected thought leader in
+              the tech industry. Throughout my career, I have consistently
+              demonstrated my ability to: - Drive business results through
+              strategic planning and execution - Foster a culture of innovation,
+              collaboration, and continuous learning - Deliver exceptional
+              customer experiences through tailored solutions and services -
+              Build and lead high-performing teams that excel in a fast-paced
+              environment. As a seasoned executive, I am known for my: -
+              Strategic thinking and problem-solving skills - Excellent
+              communication and interpersonal skills - Ability to inspire and
+              motivate teams to achieve outstanding results - Passion for
+              staying at the forefront of technological advancements and
+              industry trends. As a leader, I am committed to: - Empowering my
+              team to reach their full potential - Delivering innovative
+              solutions that exceed customer expectations - Driving business
+              growth and success through strategic partnerships and
+              collaborations
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('my approach')">
+                My Approach
+              </p>
+              <p class="tab-links" onclick="opentab('my expertise')">
+                My Expertise
+              </p>
+              <p class="tab-links" onclick="opentab('my story')">My Story</p>
+            </div>
+            <div class="tab-contents active-tab" id="my approach">
+              <p>
+                As a CEO, my approach is centered around empowerment,
+                innovation, and customer-centricity. I believe in fostering a
+                culture of collaboration, where teams feel valued and motivated
+                to drive excellence. My leadership style is built on
+                transparency, open communication, and a passion for staying
+                ahead of the curve. I strive to create an environment where
+                creativity thrives, and innovation is encouraged.
+              </p>
+            </div>
+            <div class="tab-contents" id="my expertise">
+              <p>
+                With extensive experience in the tech industry, my expertise
+                spans across Apple products and services, strategic planning,
+                and execution. I possess a deep understanding of the retail
+                landscape and have successfully leveraged this knowledge to
+                drive business growth and customer satisfaction. My expertise is
+                built on a foundation of continuous learning, staying up-to-date
+                with industry trends, and a commitment to excellence.
+              </p>
+            </div>
+            <div class="tab-contents" id="my story">
+              <p>
+                My journey as a CEO began on the sales floor, where I developed
+                a passion for technology and customer experience. Through hard
+                work and dedication, I progressed through the ranks, taking on
+                various leadership roles that honed my skills and expertise.
+                Today, as the CEO of an Apple retail store, I am driven by a
+                desire to deliver exceptional customer experiences, foster a
+                culture of innovation, and empower my team to reach their full
+                potential.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Strategic Consulting</h2>
+            <p>
+              Expert guidance on business growth, innovation, and customer
+              experience, tailored to drive long-term success. Includes market
+              analysis, competitive research, and development of customized
+              strategies.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Retail Operations</h2>
+            <p>
+              Streamlining processes and implementing effective strategies to
+              maximize efficiency, productivity, and profitability. Includes
+              workflow analysis, process improvement, and training for optimal
+              performance.
+            </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-apple"></i>
+            <h2>Technology Integration</h2>
+            <p>
+              Leveraging Apple products and services to drive business success,
+              including solution design, implementation, and support. Includes
+              infrastructure setup, software configuration, and ongoing
+              maintenance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="iphone 15 pro max.JPG" />
+            <div class="layer">
+              <h3>Apple Iphones</h3>
+              <p>
+                - Specialist in bulk iPhone sales to wholesalers, resellers, and
+                end users. Also expert in iPhone trade-ins and purchases.
+              </p>
+              <a
+                href="https://www.instagram.com/reel/C457e-qsUCm/?igsh=MmxoNDBtYm1nb2xy"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="macbook pro.JPG" />
+            <div class="layer">
+              <h3>Apple Macbooks</h3>
+              <p>
+                - Authorized supplier of MacBooks to businesses, educational
+                institutions, and individuals. Configurations tailored to meet
+                specific needs.
+              </p>
+              <a
+                href="https://www.instagram.com/p/C1mwzIHs5o1/?igsh=bjlscGtrOXJ3MDh2"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="JBL.JPG" />
+            <div class="layer">
+              <h3>JBL Speakers</h3>
+              <p>
+                - Premium audio solutions provider, offering JBL speakers for
+                personal and professional applications. Expert advice on
+                selecting the right speakers for your needs.
+                <a
+                  href="https://www.instagram.com/reel/CqmnAV4gIPb/?igsh=bzNkeGZhZDRsazk="
+                  ><i class="fa-solid fa-link"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="premium reseller.JPG" />
+            <div class="layer">
+              <h3>Registered Apple Reseller</h3>
+              <p>
+                Authorized to sell Apple products, including iPhones, MacBooks,
+                and accessories, with expert knowledge and competitive pricing.
+                <a
+                  href="https://www.instagram.com/ibugattigadgets?igsh=MXg1YzVvOWZiYWUyaA=="
+                  ><i class="fa-solid fa-link"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Info -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i> ibugattigadgetstore@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i> 08161329451</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/ibugattigadgets?igsh=MXg1YzVvOWZiYWUyaA=="><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="https://wa.link/f17qga"><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+            <a href="" class="btn btn2"></a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © WillixOS <i class="fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu(){
+          sidemeu.style.right = "0"
+      }
+      function closemenu(){
+          sidemeu.style.right = "-200px"
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbw462hfv-6thq7N4dZlUiYd4bvunxJakaDmYmJaL6EHb62UjU8lMf-9_lT1itjaHM8/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
